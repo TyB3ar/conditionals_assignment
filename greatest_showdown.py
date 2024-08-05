@@ -6,11 +6,11 @@ num_three = input("Please enter a third number: ")
 
 # Ask the user to enter three numbers to sort 
 
-if num_one > num_two and num_one > num_three:    # this conditional will find if one number is larger than the other 2 
+if num_one >= num_two and num_one >= num_three:    # this conditional will find if one number is larger than the other 2 
     print("The largest number is " + num_one) 
-elif num_two > num_one and num_two > num_three: 
+elif num_two >= num_one and num_two >= num_three: 
     print("The largest number is " + num_two) 
-elif num_three > num_one and num_three > num_two: 
+elif num_three >= num_one and num_three >= num_two: 
     print("The largest number is " + num_three) 
     
 # Task 2: Identify the Smallest 
